@@ -1,0 +1,48 @@
+body{background: teal;
+text-align: center;}
+
+#states{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.content{
+    float: left;
+    min-height: 100px;
+    max-width: 40vmin;
+    min-width: 30vmin;
+    border-radius: 5%;
+    background: lightgrey;
+    border: none; 
+    padding: 10px;
+
+    margin-right: 15px;
+    margin: 10px;
+    align-items:center;
+    }
+
+    
+        .content:hover{
+            background: darkgrey;   
+        }
+    
+        .content:hover > .deleteBtn{
+        background: darkgrey; 
+        }
+        
+
+
+
+.deleteBtn{
+    height: 30px;
+    width: 30px;
+    color:black;
+    background:lightgrey;
+    border: none;
+}
+
+
+
+  
