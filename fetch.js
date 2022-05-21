@@ -37,7 +37,7 @@ const another = async () =>{
     })
 
     searchInput.addEventListener("input", (e)=>{
-        let value = e.target.value
+        let value = e.target.value.toLowerCase()
         const isVisible = card.id.toLowerCase().includes(value)
         card.classList.toggle("hide", !isVisible)
     })
