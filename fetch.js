@@ -33,7 +33,7 @@ const another = async () =>{
     deleteBtn.addEventListener("click", (e)=>{
         let text = "You really don't like them that much?"
         confirm(text) == true ? deleteBtn.parentElement.parentElement.remove() : ""
-        e.target.value = card.id === "Russian Federation" ? alert("We fully agree with You") : ""
+        e.target.value = card.id === "Russian Federation" ? alert("We fully agree with You!") : ""
     })
 
     searchInput.addEventListener("input", (e)=>{
