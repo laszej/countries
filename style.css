@@ -1,0 +1,73 @@
+*{box-sizing: border-box}
+
+body{
+font-family: 'Ubuntu', sans-serif;
+background: teal;
+text-align: center;}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+
+#searchInput{
+    margin-top: 10px;
+    padding:10px;
+    min-width: 300px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#states{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    min-height: 100px;
+    max-width: 40vmin;
+    min-width: 30vmin;
+    border-radius: 5%;
+    background: lightgrey;
+    border: none; 
+    padding: 10px;
+    margin: 10px;
+    
+    }
+
+.content:hover{
+    background: darkgrey;   
+}
+
+.content:hover > .deleteBtn{
+    background: darkgrey; 
+    }
+
+.deleteBtn{
+    height: 30px;
+    width: 30px;
+    margin-top:5px;
+    color:black;
+    background:lightgrey;
+    border: none;
+    margin-top: auto;
+}
+
+.hide{
+    display: none;
+}
+
+
+   
+
+
+  
