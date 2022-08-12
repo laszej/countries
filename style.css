@@ -21,6 +21,7 @@ text-align: center;}
     min-width: 300px;
     text-align: center;
     font-size: 16px;
+    outline: none;
 }
 
 #states{
